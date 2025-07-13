@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrap{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.leftColor input{
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+}
+.rightColor input{
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+}
+button{
+    width: 100px;
+    height: 50px;
+    background-color: rgb(217, 5, 217);
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
